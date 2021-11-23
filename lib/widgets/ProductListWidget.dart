@@ -1,4 +1,5 @@
 import 'package:amazon_challenge_ui/config/colors.dart';
+import 'package:amazon_challenge_ui/pages/product_details_page.dart';
 import 'package:amazon_challenge_ui/widgets/small_button.dart';
 import 'package:flutter/material.dart';
 
@@ -64,7 +65,9 @@ class ProductListinRow extends StatelessWidget {
               SizedBox(
                 width: 50,
               ),
-              SmallButtonforadd(),
+              InkWell(onTap:(){
+                Navigator.push(context,MaterialPageRoute(builder: (context)=> ProductDetailsPage()));
+              },child: SmallButtonforadd()),
             ],
           ),
         ),

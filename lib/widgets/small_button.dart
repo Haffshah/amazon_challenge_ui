@@ -1,7 +1,7 @@
 
 
 import 'package:amazon_challenge_ui/config/colors.dart';
-import 'package:amazon_challenge_ui/pages/category_page.dart';
+import 'package:amazon_challenge_ui/pages/product_details_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +20,7 @@ class SmallButtonforadd extends StatelessWidget {
       child: Center(
         child: IconButton(
           onPressed: () {
-            Navigator.push(context, CupertinoPageRoute(builder: (context)=> CategoryPage() ));
+            Navigator.push(context, CupertinoPageRoute(builder: (context)=> ProductDetailsPage() ));
           },
           icon: Icon(
             CupertinoIcons.add,
