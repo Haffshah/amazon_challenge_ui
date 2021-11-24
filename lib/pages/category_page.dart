@@ -80,7 +80,7 @@ class _CategoryPageState extends State<CategoryPage> {
                     children: <Widget>[
                       GridViewCategoryItems(
                         price: 200,
-                        image: "assets/icons/men.jpg",
+                        image: "assets/icons/shoes.png",
                         title: "Shoes",
                       ),
                       GridViewCategoryItems(
@@ -95,7 +95,7 @@ class _CategoryPageState extends State<CategoryPage> {
                       ),
                       GridViewCategoryItems(
                         price: 98,
-                        image: "assets/icons/electronics.png",
+                        image: "assets/icons/Laptop.png",
                         title: "Electronics",
                       ),
                       GridViewCategoryItems(
@@ -105,7 +105,7 @@ class _CategoryPageState extends State<CategoryPage> {
                       ),
                       GridViewCategoryItems(
                         price: 354,
-                        image: "assets/icons/game.png",
+                        image: "assets/icons/men.jpg",
                         title: "Shoes",
                       ),
                       GridViewCategoryItems(

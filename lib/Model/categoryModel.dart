@@ -9,7 +9,7 @@ class CategoryModelData {
 
   static List<CategoryModelData> icons = [
     CategoryModelData(
-      icon: "assets/icons/men.jpg",
+      icon: "assets/icons/shoes.png",
       title: "Shoes",
     ),
     CategoryModelData(
@@ -25,7 +25,7 @@ class CategoryModelData {
       title: "Games",
     ),
     CategoryModelData(
-      icon: "assets/icons/electronics.png",
+      icon: "assets/icons/Laptop.png",
       title: "Electronics",
     ),
 
