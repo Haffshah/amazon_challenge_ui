@@ -20,6 +20,15 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
+    final TextStyle boldFont =
+        TextStyle(fontSize: 20, fontWeight: FontWeight.bold);
+
+    final TextStyle font16 = TextStyle(
+      fontSize: 16,
+    );
+
+     final sidepadding =
+    EdgeInsets.symmetric(horizontal: 12.0, vertical: 8);
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Scaffold(
@@ -57,7 +66,7 @@ class _HomePageState extends State<HomePage> {
               ),
               Padding(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8),
+                sidepadding,
                 child: BuildIconsList(),
               ),
               Padding(
@@ -69,17 +78,14 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Text(
                       "Top Selling",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      style: boldFont,
                     ),
                     Spacer(),
                     GestureDetector(
                       onTap: () {},
                       child: Text(
                         Constant.seeAll,
-                        style: TextStyle(
-                          fontSize: 16,
-                        ),
+                        style: font16
                       ),
                     ),
                   ],
